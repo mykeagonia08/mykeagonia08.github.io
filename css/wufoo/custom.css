@@ -137,8 +137,22 @@ html {
 
 /* Radio buttons */
 
-input.radio {
+ span:nth-child(1) label.choice {
     border: 2px solid #64c832;
+    background-color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 150%;
+    font-size: 2.0em;
+    font-weight: normal;
+}
+
+span:nth-child(2) label.choice {
+    display: inline;
+    border: 2px solid #f05050;
     background-color: white;
     width: 120px;
     height: 50px;
