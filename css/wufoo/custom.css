@@ -2,7 +2,7 @@
 
  Title : Free Estimate Theme
  Author : Myke Agonia
- URL : http://http://mykeagonia08.github.io/css/wufoo/custom.css
+ URL : http://mykeagonia08.github.io/css/wufoo/custom.css
 
  Last Updated : 
 
@@ -11,37 +11,141 @@
 
 /* - - - Free Estimate Theme - - - */
 
+
 /* Logo */
-#logo a {background-image:url('http://wufoo.com/images/themes/logos/shark.png'); min-height:0; height:40px}
-* html #logo a {/* IE6 png Support */
-	background-image: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
+
+#logo a {
+    background-image: url('http://wufoo.com/images/themes/logos/shark.png');
+    min-height: 0;
+    height: 40px
 }
 
+* html #logo a {
+    /* IE6 png Support */
+    background-image: none;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
+}
+
+
 /* Backgrounds */
-html{background-image:none;background-color:#99cc00}
-#logo{background-image:none;background-color:#669900}
-#container{background:#FFFFFF}
-.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
-.wufoo .focused{background:#FFF7C0}
-.wufoo .instruct{background-color:#F5F5F5}
+
+html {
+    background-image: none;
+    background-color: #99cc00
+}
+
+#logo {
+    background-image: none;
+    background-color: #669900
+}
+
+#container {
+    background: #FFFFFF
+}
+
+.wufoo input.text,
+.wufoo textarea.textarea {
+    background: #FFFFFF url(/images/fieldbg.gif) repeat-x top
+}
+
+.wufoo .focused {
+    background: #FFF7C0
+}
+
+.wufoo .instruct {
+    background-color: #F5F5F5
+}
+
 
 /* Borders */
-#container{border:0 solid #cccccc}
-.wufoo .info{border-bottom:1px dotted #CCCCCC;}
 
+#container {
+    border: 0 solid #cccccc
+}
 
-.wufoo .instruct{border:1px solid #e6e6e6}
+.wufoo .info {
+    border-bottom: 1px dotted #CCCCCC
+}
+
+.wufoo .instruct {
+    border: 1px solid #e6e6e6
+}
+
 
 /* Typography */
-.wufoo .info h2{font-size:160%;font-family:inherit;color:#000000; 
-text-align: center;}
-.wufoo .info div{font-size:95%;font-family:inherit;color:#444444}
-.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
-.wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
-.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
-.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
-.wufoo label.choice{color:#444444;}
-.wufoo .instruct{font-size:80%;font-family:inherit;color:#444444
+
+.wufoo .info h2 {
+    font-size: 160%;
+    font-family: inherit;
+    color: #000000;
+    display: none;
+}
+
+.wufoo .info div {
+    font-size: 95%;
+    font-family: inherit;
+    color: #444444;
+    text-align: center;
+}
+
+.wufoo .section h3 {
+    font-size: 110%;
+    font-family: inherit;
+    background: #FFFFFF;
+    color: #000000
+}
+
+.wufoo .section div {
+    font-size: 85%;
+    font-family: inherit;
+    color: #444444
+}
+
+.wufoo label.desc,
+.wufoo legend.desc {
+    font-size: 95%;
+    font-family: inherit;
+    color: #444444
+}
+
+.wufoo li div,
+.wufoo li div label,
+.wufoo li span label {
+    font-family: inherit;
+    color: #444444
+}
+
+.wufoo input.text,
+.wufoo textarea.textarea,
+.wufoo select.select,
+.wufoo label.choice {
+    font-size: 100%;
+    font-family: inherit;
+    color: #333333
+}
+
+.wufoo label.choice {
+    color: #444444
+}
+
+.wufoo .instruct {
+    font-size: 80%;
+    font-family: inherit;
+    color: #444444
+}
+
+
+/* Radio buttons */
+
+input.radio {
+    border: 2px solid #64c832;
+    background-color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 150%;
+    font-size: 2.0em;
+    font-weight: normal;
 }
