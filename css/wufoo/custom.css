@@ -28,8 +28,9 @@ html{background-image:none;background-color:#99cc00}
 
 /* Borders */
 #container{border:0 solid #cccccc}
-.wufoo .info{border-bottom:1px dotted #CCCCCC;
-text-align: center;}
+.wufoo .info{border-bottom:1px dotted #CCCCCC; text-align: center}
+
+
 .wufoo .instruct{border:1px solid #e6e6e6}
 
 /* Typography */
@@ -40,6 +41,6 @@ text-align: center;}
 .wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
 .wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
 .wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
-.wufoo label.choice{color:#444444}
+.wufoo label.choice{color:#444444; font-size: 900}
 .wufoo .instruct{font-size:80%;font-family:inherit;color:#444444
 }
