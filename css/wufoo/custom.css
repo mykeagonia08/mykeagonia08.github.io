@@ -138,9 +138,9 @@ html {
 /* EDITS */
 
 /*Page Break */
-td.c.selected {
+.pgStyle1 .selected var {
     background: #123f68;
-    border: 1px solid #123f68;
+    border-style: none;
     color: #fff;
 }
 
