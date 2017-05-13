@@ -201,9 +201,17 @@ html {
      visibility: hidden; 
 }
 
+
+.chkboxButtons label:hover span.choice__text {
+    color: #fff;
+}
 .chkboxButtons label span.choice__text {
     color: #64c832;
     font-size: 19px;
+}
+
+.chkboxButtons label:hover {
+    background-color: #64c832;
 }
 
 .chkboxButtons label {
