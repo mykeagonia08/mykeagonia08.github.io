@@ -137,6 +137,15 @@ html {
 
 /* EDITS */
 
+/*Page Break */
+h1#logo,
+td.c.selected {
+    background: #123f68;
+    border: 1px solid #123f68;
+    color: #fff;
+}
+
+
 /* Radio buttons */
 
 .radioButton input[type=radio] {
