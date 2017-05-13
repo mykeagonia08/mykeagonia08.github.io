@@ -31,12 +31,12 @@
 
 html {
     background-image: none;
-    background-color: #99cc00
+    background-color: #cccccc;
 }
 
 #logo {
     background-image: none;
-    background-color: #669900
+    background-color: #123f68
 }
 
 #container {
@@ -138,7 +138,6 @@ html {
 /* EDITS */
 
 /*Page Break */
-h1#logo,
 td.c.selected {
     background: #123f68;
     border: 1px solid #123f68;
