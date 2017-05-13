@@ -136,6 +136,7 @@ html {
 
 
 /* EDITS */
+
 /* Radio buttons */
 
 .radioButton input[type=radio] {
@@ -186,4 +187,27 @@ html {
     line-height: 150%;
     font-size: 2.0em;
     font-weight: normal;
+}
+
+/* Checkbox Buttons */
+
+.chkboxButtons input.checkbox {
+     visibility: hidden; 
+}
+
+.chkboxButtons label span.choice__text {
+    color: #64c832;
+    font-size: 19px;
+}
+
+.chkboxButtons label {
+    border: 1px solid #64c832;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 150%;
+    font-size: 1em;
 }
