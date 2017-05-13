@@ -143,6 +143,8 @@ html {
     visibility: hidden;
 }
 
+.radioButton span:nth-child(2) input[type=radio]:checked + label.choice:hover span,
+.radioButton span:nth-child(3) input[type=radio]:checked + label.choice:hover span, 
 .radioButton span:nth-child(2) input[type=radio]:checked + label.choice span,
 .radioButton span:nth-child(3) input[type=radio]:checked + label.choice span {
     color: #fff;
@@ -159,6 +161,7 @@ html {
     background-color: #64c832;
 }
 
+.radioButton span:nth-child(2) label.choice:hover,
 .radioButton span:nth-child(2) label.choice {
     border: 2px solid #64c832;
     background-color: white;
@@ -176,6 +179,7 @@ html {
     background-color: #f05050;
 }
 
+.radioButton span:nth-child(3) label.choice:hover, 
 .radioButton span:nth-child(3) label.choice {
     border: 2px solid #f05050;
     background-color: white;
