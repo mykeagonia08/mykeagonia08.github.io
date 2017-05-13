@@ -146,7 +146,8 @@ html {
 .radioButton span:nth-child(2) label.choice:hover span,
 .radioButton span:nth-child(3) label.choice:hover span, 
 .radioButton span:nth-child(2) input[type=radio]:checked + label.choice span,
-.radioButton span:nth-child(3) input[type=radio]:checked + label.choice span {
+.radioButton span:nth-child(3) input[type=radio]:checked + label.choice span,
+.chkboxButtons input[type=checkbox]:checked + label.choice>span{
     color: #fff;
 }
 
@@ -159,7 +160,8 @@ html {
 
 
 .radioButton span:nth-child(2) label.choice:hover,
-.radioButton span:nth-child(2) input[type=radio]:checked + label.choice {
+.radioButton span:nth-child(2) input[type=radio]:checked + label.choice,
+.chkboxButtons input[type=checkbox]:checked +label {
     background-color: #64c832;
 }
 
