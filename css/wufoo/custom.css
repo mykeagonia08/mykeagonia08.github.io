@@ -227,3 +227,23 @@ html {
     line-height: 150%;
     font-size: 1em;
 }
+
+input#nextPageButton {
+
+    display: inline-block;
+
+    background: #ff9600;
+    background: -webkit-linear-gradient(#ff9600, #ff9600);
+    background: linear-gradient(#ff9600, #ff9600);
+    border-radius: 10px;
+    color: #fff;
+    padding: 16px 20px;
+    font: normal 700 29px/1 "Open Sans", sans-serif;
+    text-align: center;
+    text-shadow: none;
+
+}
+
+button#previousPageButton {
+    float: left;
+}
