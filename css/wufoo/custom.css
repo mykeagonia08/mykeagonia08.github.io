@@ -143,8 +143,8 @@ html {
     visibility: hidden;
 }
 
-.radioButton span:nth-child(2) input[type=radio]:checked + label.choice:hover span,
-.radioButton span:nth-child(3) input[type=radio]:checked + label.choice:hover span, 
+.radioButton span:nth-child(2) label.choice:hover span,
+.radioButton span:nth-child(3) label.choice:hover span, 
 .radioButton span:nth-child(2) input[type=radio]:checked + label.choice span,
 .radioButton span:nth-child(3) input[type=radio]:checked + label.choice span {
     color: #fff;
