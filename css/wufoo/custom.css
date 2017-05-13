@@ -229,8 +229,8 @@ html {
 }
 
 input#nextPageButton {
-
-    display: inline-block;
+    
+    float: right;
 
     background: #ff9600;
     background: -webkit-linear-gradient(#ff9600, #ff9600);
