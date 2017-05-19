@@ -154,7 +154,7 @@ border: 2px solid #f05050;
 }
 
 
-/*Next Page*/
+/*Next Page AND Save Form Button */
 .noI .rightLabel .buttons,
 .rightLabel .buttons,
 .noI .leftLabel .buttons,
@@ -176,6 +176,16 @@ border: 2px solid #f05050;
   background: #ff9600;
 }
 
+/*Previous Page Button*/
+.wufoo button#previousPageButton {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #123f68;
+    font-size: 16px;
+}
 
 
 /************End Structure**************/
