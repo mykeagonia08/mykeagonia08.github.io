@@ -1,0 +1,85 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : ACA Free Estimate Form Responsive Theme
+ Author : Myke Agonia
+ URL : http://mykeagonia08.github.io/css/wufoo/aca-responsive.css
+
+ Last Updated : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - ACA Free Estimate Form Responsive Theme - - - */
+
+
+/********************
+Colors
+-----
+Blue: #123f68
+    #0D6796
+Green: #64c832
+Red: #f05050
+Orange: #ff9600
+*********************/
+
+
+/************Global**************/
+
+
+/************End Global**************/
+
+
+/************Classes**************/
+
+.wufoo {
+
+}
+
+/************End Classes**************/
+
+
+/************Structure**************/
+
+
+.wufoo .info h2 {
+    margin-bottom: 10px;
+    padding:  5px;
+    font-size: 16px;
+    color: #fff;
+    background: #0D6796;
+    text-align: center;
+    border-bottom:  none;
+
+}
+
+/************End Structure**************/
+
+
+/************Mobile Queries**************/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+/************End Mobile Queries**************/
