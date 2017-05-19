@@ -64,13 +64,17 @@ Orange: #ff9600
   padding-bottom: 5px;
 }
 
-
+.wufoo textarea.textarea,
 .wufoo input.text {
     width: 100%;
     font-size: 16px;
     border:2px solid #0D6796;
     border-radius:10px;
     height: 22px;
+}
+
+.wufoo textarea.textarea {
+    height: 54px;
 }
 
 
@@ -167,6 +171,7 @@ border: 2px solid #f05050;
 .leftLabel li div, .rightLabel li div {
   width: 100%;
 }
+.wufoo input#saveForm,
 .wufoo input#nextPageButton {
   display: block;
   width: 100%;
@@ -201,6 +206,20 @@ border: 2px solid #f05050;
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
+
+        /*Yes radio button*/
+        .radioButton span:nth-child(2) label.choice {
+            width: 420px;
+        }
+
+        /*No radio button*/
+        .radioButton span:nth-child(3) label.choice {
+            width: 420px;
+        }
+
+        .chkboxButtons label {
+            width: 200px;
+        }
 
     }
 
