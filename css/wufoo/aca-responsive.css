@@ -120,7 +120,7 @@ Orange: #ff9600
 .radioButton span:nth-child(3) label.choice {
     margin-left: 10px;
     padding: 12px 0;
-border: 2px solid #f05050;
+    border: 2px solid #f05050;
     background-color: white;
     width: 260px;
     border-radius: 5px;
@@ -204,15 +204,48 @@ border: 2px solid #f05050;
 
     }*/
 
+    @media only screen and (min-width : 360px) {
+        
+        /*Yes No radio button*/
+        .radioButton span:nth-child(2) label.choice,
+        .radioButton span:nth-child(3) label.choice {
+            width: 300px;
+        }
+
+        .chkboxButtons label {
+            width: 200px;
+        }
+    }
+
+    @media only screen and (min-width : 375px) {
+        
+        /*Yes No radio button*/
+        .radioButton span:nth-child(2) label.choice,
+        .radioButton span:nth-child(3) label.choice {
+            width: 315px;
+        }
+
+    }
+
+    @media only screen and (min-width : 414px) {
+
+        /*Yes No radio button*/
+        .radioButton span:nth-child(2) label.choice,
+        .radioButton span:nth-child(3) label.choice {
+            width: 350px;
+        }
+
+        .chkboxButtons label {
+            width: 170px;
+        }
+
+    }
+
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
 
-        /*Yes radio button*/
-        .radioButton span:nth-child(2) label.choice {
-            width: 420px;
-        }
-
-        /*No radio button*/
+        /*Yes No radio button*/
+        .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
             width: 420px;
         }
