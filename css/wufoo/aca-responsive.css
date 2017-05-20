@@ -210,21 +210,39 @@ Orange: #ff9600
 
 /* ===== Progress Bar Striped Animated ===== */
 
-.wufoo li.paging-context tr {
+.wufoo b,
+.wufoo em {
+    color: #0D6796;
+}
 
-	background-color:#d3d3d3;
-	-webkit-border-radius:25px;
-	-moz-border-radius:25px;
-	-ms-border-radius:25px;
-	border-radius:20px;
-	-webkit-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
-	-moz-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
-	-ms-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
-	box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+.wufoo em{
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.wufoo li.paging-context tr,
+.wufoo li.paging-context td {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+.wufoo li.paging-context tr {
+    background-color: none;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    border-radius:20px;
+    -webkit-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    -ms-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
 }
 
 .wufoo li.paging-context var {
-
     background-color:#d3d3d3;
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
