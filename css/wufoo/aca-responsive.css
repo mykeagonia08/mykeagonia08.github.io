@@ -220,26 +220,24 @@ Orange: #ff9600
     font-size: 16px;
 }
 
-.wufoo li.paging-context tr,
-.wufoo li.paging-context td {
+.wufoo li.paging-context td,
+.wufoo li.paging-context tr {
+    background: none;
     border: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     -ms-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
-}
 
-.wufoo li.paging-context tr {
-    background: none;
-    -webkit-border-radius:25px;
+    /*-webkit-border-radius:25px;
     -moz-border-radius:25px;
     -ms-border-radius:25px;
     border-radius:20px;
     -webkit-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
     -moz-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
     -ms-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
-    box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);*/
 }
 
 .wufoo li.paging-context var {
