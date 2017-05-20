@@ -25,6 +25,7 @@ Orange: #ff9600
 
 /************Structure**************/
 .wufoo {
+    max-width: 480px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -374,7 +375,7 @@ Animate the stripes
         }
 
         .chkboxButtons label {
-            width: 200px;
+            width: 140px;
         }
     }
 
@@ -384,6 +385,10 @@ Animate the stripes
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
             width: 315px;
+        }
+
+        .chkboxButtons label {
+            width: 145px;
         }
 
     }
@@ -407,10 +412,7 @@ Animate the stripes
 
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
-        .radioButton span:nth-child(3) label.choice {
-            width: 420px;
-        }
-
+        .radioButton span:nth-child(3) label.choice,
         .chkboxButtons label {
             width: 200px;
         }
