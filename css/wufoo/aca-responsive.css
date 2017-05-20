@@ -231,7 +231,7 @@ Orange: #ff9600
 }
 
 .wufoo li.paging-context tr {
-    background-color: none;
+    background: none;
     -webkit-border-radius:25px;
     -moz-border-radius:25px;
     -ms-border-radius:25px;
