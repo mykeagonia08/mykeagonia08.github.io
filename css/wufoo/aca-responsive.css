@@ -414,7 +414,11 @@ Animate the stripes
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice,
         .chkboxButtons label {
-            width: 200px;
+            width: 190px;
+        }
+
+        .radioButton span:nth-child(2) label.choice {
+                margin: 0;
         }
 
     }
