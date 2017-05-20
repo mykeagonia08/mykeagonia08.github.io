@@ -147,7 +147,7 @@ Orange: #ff9600
     margin: 5px 10px;
     background-color: #fff;
     border-radius: 5px;
-    width: 140px;
+    width: 120px;
     height: 50px;
     text-align: center;
     line-height: 150%;
@@ -171,11 +171,14 @@ Orange: #ff9600
 .wufoo input#saveForm,
 .wufoo input#nextPageButton {
   display: block;
+  margin-top: 30px;
   width: 100%;
   height: 48px;
   font-size: 16px;
   border-radius: 30px;
   background: #ff9600;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-appearance: none;  /*To have same style in other browsers like Safari, Mozilla, Opera */
 }
 
 /*Previous Page Button*/
@@ -426,6 +429,22 @@ Animate the stripes
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
+
+    }
+
+    @media only screen and (min-width : 1280px) {
+
+    }
+
+    @media only screen and (min-width : 1366px) {
+
+    }
+
+    @media only screen and (min-width : 1440px) {
+
+    }
+
+    @media only screen and (min-width : 1920px) {
 
     }
 
