@@ -175,7 +175,7 @@ Orange: #ff9600
   margin: 0;
 }
 .leftLabel li div, .rightLabel li div {
-  width: 52%;
+  width: 100%;
 }
 .wufoo input#saveForm,
 .wufoo input#nextPageButton {
@@ -441,6 +441,10 @@ Animate the stripes
         .rightLabel .desc {
             padding-left: 80px;
             width: 32%;
+        }
+
+        .leftLabel li div, .rightLabel li div {
+            width: 52%;
         }
 
 
