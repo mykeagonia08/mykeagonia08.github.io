@@ -424,6 +424,12 @@ Animate the stripes
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
 
+        .wufoo .formMsg > label.desc {
+            width: 100%;
+            padding-left: 5px;
+            margin: 0;
+        }
+        
         .wufoo .radioButton span:nth-child(2) label.choice {
             margin-left: 47px;
         }
