@@ -428,12 +428,15 @@ Animate the stripes
             margin-left: 47px;
         }
 
+        .wufoo button#previousPageButton {
+            margin-top: 30px;
+        }
+
         .wufoo button#previousPageButton,
         .wufoo input#nextPageButton,
         .wufoo input#saveForm {
-            margin-top: 30px;
             width: 49%;
-        }
+        } 
 
         .chkboxButtons label {
             width: 140px;
