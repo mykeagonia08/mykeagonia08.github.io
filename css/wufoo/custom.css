@@ -466,10 +466,12 @@ Animate the stripes
             margin-top: 0;
         }
 
-        .wufoo button#previousPageButton,
+        .wufoo button#previousPageButton {
+            width: 20%;
+        }
         .wufoo input#nextPageButton,
         .wufoo input#saveForm {
-            width: 49%;
+            width: 60%;
         } 
 
         .chkboxButtons label {
