@@ -191,9 +191,21 @@ Orange: #ff9600
   height: 48px;
   font-size: 16px;
   font-weight: bold;
-  border-radius: 30px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border: 1px solid #ff9600;
   color: #fff;
   background: #ff9600;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ff9600), color-stop(100%,#fffbd0));
+  background: -webkit-linear-gradient(top,  #ff9600 50%,#fffbd0 100%);
+  background: -moz-linear-gradient(top,  #ff9600 50%, #fffbd0 100%);
+  background: -o-linear-gradient(top,  #ff9600 50%,#fffbd0 100%);
+  background: -ms-linear-gradient(top,  #ff9600 50%,#fffbd0 100%);
+  background: linear-gradient(to bottom,  #ff9600 50%,#fffbd0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#fffbd0',GradientType=0 );
+  
+  text-shadow: 1px 1px 0px rgba(255,255,255,.5);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-appearance: none;  /*To have same style in other browsers like Safari, Mozilla, Opera */
 }
