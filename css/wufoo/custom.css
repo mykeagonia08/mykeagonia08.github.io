@@ -428,6 +428,16 @@ Animate the stripes
             margin-left: 47px;
         }
 
+        button#previousPageButton{
+            margin: 0;
+            width: 50%;
+        }
+
+        .wufoo input#saveForm, .wufoo input#nextPageButton {
+            margin: 0;
+            width: 49%;
+        }
+
         .chkboxButtons label {
             width: 140px;
         }
@@ -439,6 +449,11 @@ Animate the stripes
         .wufoo label.desc,
         .wufoo legend.desc {
             width: 25%;
+        }
+        
+        .leftLabel .buttons div,
+        .rightLabel .buttons div {
+            width: 100%;
         }
 
         .leftLabel .desc,
@@ -453,7 +468,7 @@ Animate the stripes
 
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
-        width: 120px;
+            width: 120px;
         }
     }
 
