@@ -204,8 +204,6 @@ Orange: #ff9600
   background: -ms-linear-gradient(top,  #ff9600 50%,#fffbd0 100%);
   background: linear-gradient(to bottom,  #ff9600 50%,#fffbd0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#fffbd0',GradientType=0 );
-  
-  text-shadow: 1px 1px 0px rgba(255,255,255,.5);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-appearance: none;  /*To have same style in other browsers like Safari, Mozilla, Opera */
 }
