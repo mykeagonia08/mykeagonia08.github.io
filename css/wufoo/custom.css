@@ -435,7 +435,20 @@ Animate the stripes
         }
 
         .radioButton span:nth-child(2) label.choice {
-                margin: -15px 0 5px 10px;
+                /*margin: -15px 0 5px 10px;*/
+        }
+
+        /*div#container {
+        width: 700x;
+        }*/
+
+        li.notStacked div span {
+        margin: 0;
+        }
+
+        .radioButton span:nth-child(2) label.choice,
+        .radioButton span:nth-child(3) label.choice {
+        width: 120px;
         }
 
     }
