@@ -423,7 +423,15 @@ Animate the stripes
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-        
+
+        .wufoo .radioButton span:nth-child(2) label.choice {
+            margin-left: 47px;
+        }
+
+        .chkboxButtons label {
+            width: 140px;
+        }
+
         .wufoo li span input[type="tel"] {
             width: 136px;
         }
