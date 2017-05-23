@@ -107,7 +107,7 @@ Orange: #ff9600
     background-color: #64c832;
 }
 .radioButton span:nth-child(2) label.choice {
-   margin: 0 0 5px 10px;
+   /*margin: 0 0 5px 10px;*/
    padding: 12px 0;
    border: 2px solid #64c832;
     background-color: white;
@@ -388,7 +388,7 @@ Animate the stripes
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
-            width: 300px;
+            /*width: 300px;*/
         }
 
         .chkboxButtons label {
@@ -401,7 +401,7 @@ Animate the stripes
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
-            width: 315px;
+            /*width: 315px;*/
         }
 
         .chkboxButtons label {
@@ -415,7 +415,7 @@ Animate the stripes
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
-            width: 350px;
+            /*width: 350px;*/
         }
 
         .chkboxButtons label {
@@ -431,7 +431,7 @@ Animate the stripes
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice,
         .chkboxButtons label {
-            width: 190px;
+            /*width: 190px;*/
         }
 
         .radioButton span:nth-child(2) label.choice {
