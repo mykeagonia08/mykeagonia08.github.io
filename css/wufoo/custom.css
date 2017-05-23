@@ -383,6 +383,11 @@ Animate the stripes
     }*/
 
     @media only screen and (min-width : 360px) {
+
+        .wufoo li span input[type="tel"] {
+            width: 85px;
+        }
+
         .wufoo .radioButton span:nth-child(2) label.choice {
             margin-left: 50px;
         }
@@ -394,6 +399,10 @@ Animate the stripes
 
     @media only screen and (min-width : 375px) {
         
+        .wufoo li span input[type="tel"] {
+            width: 90px;
+        }
+
         .radioButton span:nth-child(2) label.choice {
             margin-left: 55px;
         }
@@ -406,9 +415,13 @@ Animate the stripes
 
     @media only screen and (min-width : 414px) {
 
-.wufoo .radioButton span:nth-child(2) label.choice {
-  margin-left: 80px;
-}
+        .wufoo li span input[type="tel"] {
+            width: 105px;
+        }
+
+        .wufoo .radioButton span:nth-child(2) label.choice {
+            margin-left: 80px;
+        }
 
         .chkboxButtons label {
             width: 170px;
@@ -429,7 +442,7 @@ Animate the stripes
             padding-left: 5px;
             margin: 0;
         }
-        
+
         .wufoo .radioButton span:nth-child(2) label.choice {
             margin-left: 47px;
         }
