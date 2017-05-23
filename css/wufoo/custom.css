@@ -83,6 +83,10 @@ Orange: #ff9600
     padding-left: 8px;
 }
 
+.wufoo li.notStacked div span {
+    margin: 0;
+}
+
 
 /* Radio buttons */
 .radioButton input[type=radio] {
@@ -182,6 +186,7 @@ Orange: #ff9600
   display: block;
   float: right;
   margin-top: 30px;
+  margin-right: 0;
   width: 100%;
   height: 48px;
   font-size: 16px;
@@ -448,9 +453,7 @@ Animate the stripes
         }
 
 
-        li.notStacked div span {
-        margin: 0;
-        }
+        
 
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
