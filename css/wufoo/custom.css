@@ -12,145 +12,82 @@
 /* - - - Free Estimate Theme - - - */
 
 
-/* Logo */
 
-#logo a {
-    background-image: url('http://wufoo.com/images/themes/logos/shark.png');
-    min-height: 0;
-    height: 40px
-}
-
-* html #logo a {
-    /* IE6 png Support */
-    background-image: none;
-    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
-}
+/********************
+Colors
+-----
+Blue: #123f68
+    #0D6796
+Green: #64c832
+Red: #f05050
+Orange: #ff9600
+*********************/
 
 
-/* Backgrounds */
-
-html {
-    background-image: none;
-    background-color: #cccccc;
-}
-
-#logo {
-    background-image: none;
-    background-color: #123f68
-}
-
-#container {
-    background: #FFFFFF
-}
-
-.wufoo input.text,
-.wufoo textarea.textarea {
-    background: #FFFFFF url(/images/fieldbg.gif) repeat-x top
-}
-
-.wufoo .focused {
-    background: #FFF7C0
-}
-
-.wufoo .instruct {
-    background-color: #F5F5F5
-}
-
-
-/* Borders */
-
-#container {
-    border: 0 solid #cccccc
+/************Structure**************/
+.wufoo {
+    max-width: 480px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .wufoo .info {
-    border-bottom: 1px dotted #CCCCCC
+  padding: 0 0 1.1em 0;
 }
 
-.wufoo .instruct {
-    border: 1px solid #e6e6e6
+.wufoo ul {
+  padding: 0 1% 0 1%;
 }
-
-
-/* Typography */
 
 .wufoo .info h2 {
-    font-size: 160%;
-    font-family: inherit;
-    color: #000000;
-    display: none;
+    margin-bottom: 10px;
+    padding:  5px;
+    font-size: 18px;
+    color: #fff;
+    background: #0D6796;
+    text-align: center;
+    border-bottom:  none;
+
 }
 
 .wufoo .info div {
-    font-size: 95%;
-    font-family: inherit;
-    color: #444444;
-    text-align: center;
+  font-size: 16px;
+  text-align: center;
 }
 
-.wufoo .section h3 {
-    font-size: 110%;
-    font-family: inherit;
-    background: #FFFFFF;
-    color: #000000
-}
-
-.wufoo .section div {
-    font-size: 85%;
-    font-family: inherit;
-    color: #444444
-}
+.wufoo .req { display: none !important; }
 
 .wufoo label.desc,
 .wufoo legend.desc {
-    font-size: 95%;
-    font-family: inherit;
-    color: #444444
+  width: 100%;
+  font-size: 16px;
+  padding-bottom: 5px;
 }
 
-.wufoo li div,
-.wufoo li div label,
-.wufoo li span label {
-    font-family: inherit;
-    color: #444444
+.wufoo li span input[type="tel"] {
+    width: 136px;
 }
 
-.wufoo input.text,
 .wufoo textarea.textarea,
-.wufoo select.select,
-.wufoo label.choice {
-    font-size: 100%;
-    font-family: inherit;
-    color: #333333
+.wufoo input.text {
+    width: 100%;
+    font-size: 16px;
+    border:2px solid #0D6796;
+    border-radius:10px;
+    height: 45px;
+    text-align: center;
 }
 
-.wufoo label.choice {
-    color: #444444
-}
-
-.wufoo .instruct {
-    font-size: 80%;
-    font-family: inherit;
-    color: #444444
-}
-
-
-/* EDITS */
-
-/*Page Break */
-.pgStyle1 .selected var {
-    background: #123f68;
-    border-style: none;
-    color: #fff;
+.wufoo textarea.textarea {
+    height: 54px;
+    text-align: left;
+    padding-left: 8px;
 }
 
 
 /* Radio buttons */
-
 .radioButton input[type=radio] {
     visibility: hidden;
 }
-
 .radioButton span:nth-child(2) label.choice:hover span,
 .radioButton span:nth-child(3) label.choice:hover span, 
 .radioButton span:nth-child(2) input[type=radio]:checked + label.choice span,
@@ -158,60 +95,52 @@ html {
 .chkboxButtons input[type=checkbox]:checked + label.choice>span{
     color: #fff;
 }
-
 .radioButton span:nth-child(2) label.choice span {
     color: #64c832;
 }
 .radioButton span:nth-child(3) label.choice span {
     color: #f05050;
 }
-
-
 .radioButton span:nth-child(2) label.choice:hover,
 .radioButton span:nth-child(2) input[type=radio]:checked + label.choice,
 .chkboxButtons input[type=checkbox]:checked +label {
     background-color: #64c832;
 }
-
 .radioButton span:nth-child(2) label.choice {
-    border: 2px solid #64c832;
+   margin: 0 0 5px 10px;
+   padding: 12px 0;
+   border: 2px solid #64c832;
     background-color: white;
-    width: 120px;
-    height: 50px;
+    width: 260px;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
     line-height: 150%;
-    font-size: 2.0em;
-    font-weight: normal;
+    font-size: 18px;
+    font-weight: bold;
 }
-
-
 .radioButton span:nth-child(3) label.choice:hover, 
 .radioButton span:nth-child(3) input[type=radio]:checked + label.choice {
     background-color: #f05050;
 }
-
 .radioButton span:nth-child(3) label.choice {
+    margin-left: 10px;
+    padding: 12px 0;
     border: 2px solid #f05050;
     background-color: white;
-    width: 120px;
-    height: 50px;
+    width: 260px;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
     line-height: 150%;
-    font-size: 2.0em;
-    font-weight: normal;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* Checkbox Buttons */
-
 .chkboxButtons input.checkbox {
      visibility: hidden; 
 }
-
-
 .chkboxButtons label:hover span.choice__text {
     color: #fff;
 }
@@ -219,39 +148,320 @@ html {
     color: #64c832;
     font-size: 19px;
 }
-
 .chkboxButtons label:hover {
     background-color: #64c832;
 }
-
 .chkboxButtons label {
     border: 1px solid #64c832;
-    margin-bottom: 10px;
+    margin: 5px 10px;
     background-color: #fff;
     border-radius: 5px;
-    width: 140px;
+    width: 120px;
     height: 50px;
     text-align: center;
     line-height: 150%;
     font-size: 1em;
 }
 
-input#nextPageButton {
-    
-    float: right;
 
-    background: #ff9600;
-    background: -webkit-linear-gradient(#ff9600, #ff9600);
-    background: linear-gradient(#ff9600, #ff9600);
-    border-radius: 10px;
-    color: #fff;
-    padding: 16px 20px;
-    font: normal 700 29px/1 "Open Sans", sans-serif;
-    text-align: center;
-    text-shadow: none;
+/*Next Page AND Save Form Button */
+.noI .rightLabel .buttons,
+.rightLabel .buttons,
+.noI .leftLabel .buttons,
+.leftLabel .buttons {
+  padding: 0;
+}
+.noI .leftLabel .buttons div {
+  margin: 0;
+}
+.leftLabel li div, .rightLabel li div {
+  width: 100%;
+}
+.wufoo input#saveForm,
+.wufoo input#nextPageButton {
+  display: block;
+  margin-top: 30px;
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  color: #fff;
+  background: #ff9600;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-appearance: none;  /*To have same style in other browsers like Safari, Mozilla, Opera */
+}
+
+/*Previous Page Button*/
+.wufoo button#previousPageButton {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #123f68;
+    font-size: 16px;
+}
+
+.wufoo td.c.selected var {
+  background: #ff9600;
+  color: #fff;
+}
+
+.wufoo td.c var {
+  background: blue;
+}
+
+.wufoo td.t #pagecircle3,
+.wufoo td.t #pagecircle2, 
+.wufoo td.t #pagecircle1 {
+  color: #444;
+}
+
+
+/* ===== Progress Bar Striped Animated ===== */
+
+.wufoo b,
+.wufoo em {
+    color: #0D6796;
+}
+
+.wufoo em{
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.wufoo li.paging-context td,
+.wufoo li.paging-context tr {
+    background: none;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+
+    /*-webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    border-radius:20px;
+    -webkit-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    -ms-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);*/
+}
+
+.wufoo li.paging-context var {
+    background-color:#d3d3d3;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    border-radius:20px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+    background-image:
+        -webkit-linear-gradient(
+        -45deg,
+        rgba(255, 154, 26, 1) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 154, 26, 1) 50%,
+        rgba(255, 154, 26, 1) 75%,
+        transparent 75%,
+        transparent
+    );
+    background-image:
+        -moz-linear-gradient(
+        -45deg,
+        rgba(255, 154, 26, 1) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 154, 26, 1) 50%,
+        rgba(255, 154, 26, 1) 75%,
+        transparent 75%,
+        transparent
+    );
+    background-image:
+        -ms-linear-gradient(
+        -45deg,
+        rgba(255, 154, 26, 1) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 154, 26, 1) 50%,
+        rgba(255, 154, 26, 1) 75%,
+        transparent 75%,
+        transparent
+    );
+    background-image:
+        linear-gradient(
+        -45deg,
+        rgba(255, 154, 26, 1) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 154, 26, 1) 50%,
+        rgba(255, 154, 26, 1) 75%,
+        transparent 75%,
+        transparent
+    );
+    -webkit-background-size:50px 50px;
+    -moz-background-size:50px 50px;
+    -ms-background-size:50px 50px;
+    background-size:50px 50px;
+    -webkit-animation:move 2s linear infinite;
+    -moz-animation:move 2s linear infinite;
+    -ms-animation:move 2s linear infinite;
+    animation:move 2s linear infinite;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    border-radius:20px;
+    overflow: hidden;
+    -webkit-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
+    -moz-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
+    -ms-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
+    box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
 
 }
 
-button#previousPageButton {
-    float: left;
-}
+/*
+Animate the stripes
+*/	
+@-webkit-keyframes move{
+  0% {
+  	background-position: 0 0;
+  }
+  100% {
+  	background-position: 50px 50px;
+  }
+}	
+@-moz-keyframes move{
+  0% {
+  	background-position: 0 0;
+  }
+  100% {
+  	background-position: 50px 50px;
+  }
+}	
+@-ms-keyframes move{
+  0% {
+  	background-position: 0 0;
+  }
+  100% {
+  	background-position: 50px 50px;
+  }
+}	
+@keyframes move{
+  0% {
+  	background-position: 0 0;
+  }
+  100% {
+  	background-position: 50px 50px;
+  }
+}	
+/* ===== END Progress Bar Striped Animated ===== */
+
+
+
+
+/************End Structure**************/
+
+
+/************Mobile Queries**************/
+
+    /* Custom, iPhone Retina */ 
+    /* min-width 320px will be the default css*/
+    /*@media only screen and (min-width : 320px) {
+
+    }*/
+
+    @media only screen and (min-width : 360px) {
+        
+        /*Yes No radio button*/
+        .radioButton span:nth-child(2) label.choice,
+        .radioButton span:nth-child(3) label.choice {
+            width: 300px;
+        }
+
+        .chkboxButtons label {
+            width: 140px;
+        }
+    }
+
+    @media only screen and (min-width : 375px) {
+        
+        /*Yes No radio button*/
+        .radioButton span:nth-child(2) label.choice,
+        .radioButton span:nth-child(3) label.choice {
+            width: 315px;
+        }
+
+        .chkboxButtons label {
+            width: 145px;
+        }
+
+    }
+
+    @media only screen and (min-width : 414px) {
+
+        /*Yes No radio button*/
+        .radioButton span:nth-child(2) label.choice,
+        .radioButton span:nth-child(3) label.choice {
+            width: 350px;
+        }
+
+        .chkboxButtons label {
+            width: 170px;
+        }
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+        /*Yes No radio button*/
+        .radioButton span:nth-child(2) label.choice,
+        .radioButton span:nth-child(3) label.choice,
+        .chkboxButtons label {
+            width: 190px;
+        }
+
+        .radioButton span:nth-child(2) label.choice {
+                margin: -15px 0 5px 10px;
+        }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+    @media only screen and (min-width : 1280px) {
+
+    }
+
+    @media only screen and (min-width : 1366px) {
+
+    }
+
+    @media only screen and (min-width : 1440px) {
+
+    }
+
+    @media only screen and (min-width : 1920px) {
+
+    }
+
+/************End Mobile Queries**************/
