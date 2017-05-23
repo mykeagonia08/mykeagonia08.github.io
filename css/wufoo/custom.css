@@ -428,13 +428,10 @@ Animate the stripes
             margin-left: 47px;
         }
 
-        button#previousPageButton{
-            margin: 0;
-            width: 50%;
-        }
-
-        .wufoo input#saveForm, .wufoo input#nextPageButton {
-            margin: 0;
+        .wufoo button#previousPageButton,
+        .wufoo input#nextPageButton,
+        .wufoo input#saveForm {
+            margin-top: 30px;
             width: 49%;
         }
 
