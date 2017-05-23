@@ -56,6 +56,10 @@ Orange: #ff9600
 
 .wufoo .req { display: none !important; }
 
+label.choice { 
+    margin-left: 35px;
+}
+
 .wufoo label.desc,
 .wufoo legend.desc {
   width: 100%;
@@ -64,7 +68,7 @@ Orange: #ff9600
 }
 
 .wufoo li span input[type="tel"] {
-    width: 136px;
+    width: 76px;
 }
 
 .wufoo textarea.textarea,
@@ -384,6 +388,9 @@ Animate the stripes
 
     @media only screen and (min-width : 360px) {
         
+        label.choice { 
+            margin-left: 52px;
+        }
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
@@ -435,6 +442,10 @@ Animate the stripes
 
         .radioButton span:nth-child(2) label.choice {
                 /*margin: -15px 0 5px 10px;*/
+        }
+
+        .wufoo li span input[type="tel"] {
+            width: 136px;
         }
 
         .wufoo label.desc,
