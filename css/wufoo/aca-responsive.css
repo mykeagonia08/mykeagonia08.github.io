@@ -73,6 +73,7 @@ Orange: #ff9600
     border:2px solid #0D6796;
     border-radius:10px;
     height: 45px;
+    text-align: center;
 }
 
 .wufoo textarea.textarea {
