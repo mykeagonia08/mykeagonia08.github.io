@@ -58,7 +58,7 @@ Orange: #ff9600
 
 .wufoo label.desc,
 .wufoo legend.desc {
-  width: 25%;
+  width: 100%;
   font-size: 16px;
   padding-bottom: 5px;
 }
@@ -165,12 +165,6 @@ Orange: #ff9600
 
 
 /*Next Page AND Save Form Button */
-.leftLabel .desc,
-.rightLabel .desc {
-    padding-left: 80px;
-    width: 32%;
-}
-
 .noI .rightLabel .buttons,
 .rightLabel .buttons,
 .noI .leftLabel .buttons,
@@ -438,9 +432,17 @@ Animate the stripes
                 /*margin: -15px 0 5px 10px;*/
         }
 
-        /*div#container {
-        width: 700x;
-        }*/
+        .wufoo label.desc,
+        .wufoo legend.desc {
+            width: 25%;
+        }
+
+        .leftLabel .desc,
+        .rightLabel .desc {
+            padding-left: 80px;
+            width: 32%;
+        }
+
 
         li.notStacked div span {
         margin: 0;
