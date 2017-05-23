@@ -57,7 +57,7 @@ Orange: #ff9600
 .wufoo .req { display: none !important; }
 
 label.choice { 
-    margin-left: 35px;
+    margin: -17 0 0 35px;
 }
 
 .wufoo label.desc,
@@ -389,7 +389,7 @@ Animate the stripes
     @media only screen and (min-width : 360px) {
         
         label.choice { 
-            margin-left: 52px;
+            margin: -17px 0 0 52px;
         }
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
