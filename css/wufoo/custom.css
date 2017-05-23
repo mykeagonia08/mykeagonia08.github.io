@@ -383,11 +383,8 @@ Animate the stripes
     }*/
 
     @media only screen and (min-width : 360px) {
-        
-        /*Yes No radio button*/
-        .radioButton span:nth-child(2) label.choice,
-        .radioButton span:nth-child(3) label.choice {
-            /*width: 300px;*/
+        .wufoo .radioButton span:nth-child(2) label.choice {
+            margin-left: 50px;
         }
 
         .chkboxButtons label {
@@ -397,10 +394,8 @@ Animate the stripes
 
     @media only screen and (min-width : 375px) {
         
-        /*Yes No radio button*/
-        .radioButton span:nth-child(2) label.choice,
-        .radioButton span:nth-child(3) label.choice {
-            /*width: 315px;*/
+        .radioButton span:nth-child(2) label.choice {
+            margin-left: 55px;
         }
 
         .chkboxButtons label {
@@ -411,11 +406,9 @@ Animate the stripes
 
     @media only screen and (min-width : 414px) {
 
-        /*Yes No radio button*/
-        .radioButton span:nth-child(2) label.choice,
-        .radioButton span:nth-child(3) label.choice {
-            /*width: 350px;*/
-        }
+.wufoo .radioButton span:nth-child(2) label.choice {
+  margin-left: 80px;
+}
 
         .chkboxButtons label {
             width: 170px;
@@ -425,17 +418,6 @@ Animate the stripes
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
-
-        /*Yes No radio button*/
-        .radioButton span:nth-child(2) label.choice,
-        .radioButton span:nth-child(3) label.choice,
-        .chkboxButtons label {
-            /*width: 190px;*/
-        }
-
-        .radioButton span:nth-child(2) label.choice {
-                /*margin: -15px 0 5px 10px;*/
-        }
 
         .wufoo li span input[type="tel"] {
             width: 136px;
@@ -455,9 +437,6 @@ Animate the stripes
         .leftLabel li div, .rightLabel li div {
             width: 52%;
         }
-
-
-        
 
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
