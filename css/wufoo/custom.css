@@ -432,6 +432,11 @@ Animate the stripes
             margin-top: 30px;
         }
 
+        .wufoo input#nextPageButton,
+        .wufoo input#saveForm {
+            margin-top: 0;
+        }
+
         .wufoo button#previousPageButton,
         .wufoo input#nextPageButton,
         .wufoo input#saveForm {
