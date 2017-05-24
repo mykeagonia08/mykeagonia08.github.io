@@ -63,7 +63,7 @@ Orange: #ff9600
 }
 
 .wufoo li span input[type="tel"] {
-    width: 136px;
+    width: 75px;
 }
 
 .wufoo textarea.textarea,
@@ -179,9 +179,10 @@ Orange: #ff9600
 .wufoo input#saveForm,
 .wufoo input#nextPageButton {
   display: block;
+  white-space: normal;
   margin-top: 30px;
   width: 100%;
-  height: 48px;
+  height: 60px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 30px;
@@ -207,15 +208,6 @@ Orange: #ff9600
   color: #fff;
 }
 
-.wufoo td.c var {
-  background: blue;
-}
-
-.wufoo td.t #pagecircle3,
-.wufoo td.t #pagecircle2, 
-.wufoo td.t #pagecircle1 {
-  color: #444;
-}
 
 
 /* ===== Progress Bar Striped Animated ===== */
@@ -377,6 +369,10 @@ Animate the stripes
 
     @media only screen and (min-width : 360px) {
         
+        .wufoo li span input[type="tel"] {
+            width: 88px;
+        }
+
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
@@ -390,6 +386,10 @@ Animate the stripes
 
     @media only screen and (min-width : 375px) {
         
+        .wufoo li span input[type="tel"] {
+            width: 92px;
+        }
+
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
@@ -403,6 +403,10 @@ Animate the stripes
     }
 
     @media only screen and (min-width : 414px) {
+
+        .wufoo li span input[type="tel"] {
+            width: 105px;
+        }
 
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
@@ -418,6 +422,10 @@ Animate the stripes
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
+
+        .wufoo li span input[type="tel"] {
+            width: 125px;
+        }
 
         /*Yes No radio button*/
         .radioButton span:nth-child(2) label.choice,
