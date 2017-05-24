@@ -190,7 +190,7 @@ input.btTxt {
 }
 .wufoo input#saveForm,
 .wufoo input#nextPageButton {
-
+    white-space: normal;
     background: #ff9600;
     background: -webkit-linear-gradient(#ff9600, #ff9600);
     background: linear-gradient(#ff9600, #ff9600);
@@ -300,7 +300,6 @@ input.btTxt {
 
         .wufoo button#previousPageButton {
             color: #000;
-            text-transform: lowercase;
         }
 
         .chkboxButtons label {
