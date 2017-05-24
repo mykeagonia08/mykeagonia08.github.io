@@ -59,7 +59,7 @@
 }
 
 .wufoo li span input[type="tel"] {
-    width: 76px;
+    width: 72px;
 }
 
 .wufoo input.text {
@@ -283,7 +283,7 @@ input.btTxt {
     @media only screen and (min-width : 414px) {
 
         .wufoo li span input[type="tel"] {
-            width: 105px;
+            width: 100px;
         }
 
         .wufoo .radioButton span:nth-child(2) label.choice, 
@@ -318,7 +318,6 @@ input.btTxt {
 
         .wufoo .formMsg > label.desc {
             width: 100%;
-            /*padding-left: 5px;*/
             margin: 0;
         }
 
