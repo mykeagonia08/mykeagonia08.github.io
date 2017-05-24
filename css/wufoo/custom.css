@@ -133,7 +133,7 @@ input.btTxt {
     padding: 12px 0;
     border: 2px solid #64c832;
     background-color: white;
-    width: 100px;
+    width: 110px;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
@@ -150,7 +150,7 @@ input.btTxt {
     padding: 12px 0;
     border: 2px solid #f05050;
     background-color: white;
-    width: 100px;
+    width: 110px;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
@@ -250,7 +250,12 @@ input.btTxt {
         }
 
         .wufoo .radioButton span:nth-child(2) label.choice {
-            margin-left: 50px;
+            margin-left: 28px;
+        }
+
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 125px;
         }
 
         .chkboxButtons label {
@@ -264,8 +269,9 @@ input.btTxt {
             width: 90px;
         }
 
-        .radioButton span:nth-child(2) label.choice {
-            margin-left: 55px;
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 130px;
         }
 
         .chkboxButtons label {
@@ -280,8 +286,9 @@ input.btTxt {
             width: 105px;
         }
 
-        .wufoo .radioButton span:nth-child(2) label.choice {
-            margin-left: 80px;
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 130px;
         }
 
         .chkboxButtons label {
