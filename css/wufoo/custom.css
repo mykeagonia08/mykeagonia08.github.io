@@ -172,6 +172,29 @@ Orange: #ff9600
     font-size: 1em;
 }
 
+.wufoo .done var {
+    background: #0D6796;
+    border: 1px solid #0D6796;
+    color: #ffffff;
+}
+
+.noI .leftLabel .Stp1Btn, 
+.noI .rightLabel .Stp1Btn, 
+.noI .leftLabel .Stp2Btn, 
+.noI .rightLabel .Stp2Btn {
+    float: right;
+}
+
+form li.buttons input {
+  font-size: 130%;
+}
+
+input.btTxt {
+    overflow: visible;
+    padding: 0 20px;
+    width: auto;
+}
+
 
 /*Next Page AND Save Form Button */
 .noI .rightLabel .buttons,
@@ -180,17 +203,15 @@ Orange: #ff9600
 .leftLabel .buttons {
   padding: 0;
 }
-.noI .leftLabel .buttons div {
+/*.noI .leftLabel .buttons div {
   margin: 0;
-}
+}*/
 .leftLabel li div, .rightLabel li div {
   width: 100%;
 }
 .wufoo input#saveForm,
 .wufoo input#nextPageButton {
 
-    float: right;
-    
     background: #ff9600;
     background: -webkit-linear-gradient(#ff9600, #ff9600);
     background: linear-gradient(#ff9600, #ff9600);
