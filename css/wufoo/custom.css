@@ -64,7 +64,7 @@
 
 .wufoo input.text {
     height: 45px;
-    width: 305px;
+    width: 100%;
     border-radius: 5px;
     text-align: center;
     font-size: 18px;
@@ -82,6 +82,11 @@
     background: #0D6796;
     border: 1px solid #0D6796;
     color: #ffffff;
+}
+
+.noI .leftLabel .buttons div,
+.noI .rightLabel .buttons div {
+    margin: 0;
 }
 
 .noI .leftLabel .Stp1Btn, 
@@ -187,7 +192,7 @@ input.btTxt {
 .rightLabel .buttons,
 .noI .leftLabel .buttons,
 .leftLabel .buttons {
-  padding-left: 10%;
+  padding-left: 0;
 }
 
 .leftLabel li div, .rightLabel li div {
@@ -292,6 +297,17 @@ input.btTxt {
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
+
+        .noI .rightLabel .buttons,
+        .rightLabel .buttons,
+        .noI .leftLabel .buttons,
+        .leftLabel .buttons {
+            padding-left: 10%;
+        }
+
+        .wufoo input.text {
+            width: 305px;
+        }
 
         .wufoo .formMsg > label.desc {
             width: 100%;
