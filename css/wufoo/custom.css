@@ -26,6 +26,11 @@
   padding: 0 0 1.1em 0;
 }
 
+.wufoo .info,
+.wufoo .paging-context {
+  border: 0;
+}
+
 .wufoo ul {
   padding: 0 1% 0 1%;
 }
