@@ -12,21 +12,8 @@
 /* - - - Free Estimate Theme - - - */
 
 
-
-/********************
-Colors
------
-Blue: #123f68
-    #0D6796
-Green: #64c832
-Red: #f05050
-Orange: #ff9600
-*********************/
-
-
 /************Structure**************/
 .wufoo {
-    /*max-width: 480px;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -59,8 +46,6 @@ Orange: #ff9600
   text-align: center;
 }
 
-/*.wufoo .req { display: none !important; }*/
-
 .wufoo label.desc,
 .wufoo legend.desc {
   width: 100%;
@@ -92,6 +77,29 @@ Orange: #ff9600
     margin: 0;
 }
 
+.wufoo .done var {
+    background: #0D6796;
+    border: 1px solid #0D6796;
+    color: #ffffff;
+}
+
+.noI .leftLabel .Stp1Btn, 
+.noI .rightLabel .Stp1Btn, 
+.noI .leftLabel .Stp2Btn, 
+.noI .rightLabel .Stp2Btn {
+    float: right;
+}
+
+form li.buttons input {
+  font-size: 130%;
+}
+
+input.btTxt {
+    overflow: visible;
+    padding: 0 20px;
+    width: auto;
+}
+
 
 /* Radio buttons */
 .radioButton input[type=radio] {
@@ -116,9 +124,8 @@ Orange: #ff9600
     background-color: #64c832;
 }
 .radioButton span:nth-child(2) label.choice {
-   /*margin: 0 0 5px 10px;*/
-   padding: 12px 0;
-   border: 2px solid #64c832;
+    padding: 12px 0;
+    border: 2px solid #64c832;
     background-color: white;
     width: 100px;
     border-radius: 5px;
@@ -172,28 +179,6 @@ Orange: #ff9600
     font-size: 1em;
 }
 
-.wufoo .done var {
-    background: #0D6796;
-    border: 1px solid #0D6796;
-    color: #ffffff;
-}
-
-.noI .leftLabel .Stp1Btn, 
-.noI .rightLabel .Stp1Btn, 
-.noI .leftLabel .Stp2Btn, 
-.noI .rightLabel .Stp2Btn {
-    float: right;
-}
-
-form li.buttons input {
-  font-size: 130%;
-}
-
-input.btTxt {
-    overflow: visible;
-    padding: 0 20px;
-    width: auto;
-}
 
 
 /*Next Page AND Save Form Button */
@@ -201,11 +186,9 @@ input.btTxt {
 .rightLabel .buttons,
 .noI .leftLabel .buttons,
 .leftLabel .buttons {
-  padding: 0;
+  padding-left: 10%;
 }
-/*.noI .leftLabel .buttons div {
-  margin: 0;
-}*/
+
 .leftLabel li div, .rightLabel li div {
   width: 100%;
 }
@@ -223,51 +206,18 @@ input.btTxt {
     text-align: center;
     text-shadow: none;
 
-  /*display: block;
-  float: right;
-  margin-top: 30px;
-  margin-right: 0;
-  width: 100%;
-  height: 48px;
-  font-size: 16px;
-  font-weight: bold;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
-  border: 1px solid #ff9600;
-  color: #fff;
-  background: #ff9600;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ff9600), color-stop(100%,#fffbd0));
-  background: -webkit-linear-gradient(top,  #ff9600 50%,#fffbd0 100%);
-  background: -moz-linear-gradient(top,  #ff9600 50%, #fffbd0 100%);
-  background: -o-linear-gradient(top,  #ff9600 50%,#fffbd0 100%);
-  background: -ms-linear-gradient(top,  #ff9600 50%,#fffbd0 100%);
-  background: linear-gradient(to bottom,  #ff9600 50%,#fffbd0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#fffbd0',GradientType=0 );
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-  -webkit-appearance: none;  /*To have same style in other browsers like Safari, Mozilla, Opera */
+    -webkit-appearance: none;  /*To have same style in other browsers like Safari, Mozilla, Opera */
 }
 
 /*Previous Page Button*/
 .wufoo button#previousPageButton {
     display: block;
-    width: 100%;
-    margin-top: 5px;
-    padding-top: 10px;
-    font-size: 15px;
-    color: #123f68;
-    font-size: 16px;
 }
 
 .wufoo td.c.selected var {
-  /*background: #ff9600;*/
   background: #0D6796;
   border: 1px solid #0D6796;
   color: #fff;
-}
-
-.wufoo td.c var {
-  /*background: #0D6796;*/
 }
 
 .wufoo td.t #pagecircle3,
@@ -275,153 +225,6 @@ input.btTxt {
 .wufoo td.t #pagecircle1 {
   color: #444;
 }
-
-
-/* ===== Progress Bar Striped Animated ===== */
-
-/*.wufoo b,
-.wufoo em {
-    color: #0D6796;
-}
-
-.wufoo em{
-    font-weight: 900;
-    font-size: 16px;
-}*/
-
-.wufoo li.paging-context td,
-.wufoo li.paging-context tr {
-    background: none;
-    border: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    -ms-box-shadow: none;
-    -o-box-shadow: none;
-    box-shadow: none;
-
-    /*-webkit-border-radius:25px;
-    -moz-border-radius:25px;
-    -ms-border-radius:25px;
-    border-radius:20px;
-    -webkit-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
-    -moz-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
-    -ms-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
-    box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);*/
-}
-
-/*.wufoo li.paging-context var {
-    background-color:#d3d3d3;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    border-radius:20px;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    box-sizing:border-box;
-    background-image:
-        -webkit-linear-gradient(
-        -45deg,
-        rgba(255, 154, 26, 1) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(255, 154, 26, 1) 50%,
-        rgba(255, 154, 26, 1) 75%,
-        transparent 75%,
-        transparent
-    );
-    background-image:
-        -moz-linear-gradient(
-        -45deg,
-        rgba(255, 154, 26, 1) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(255, 154, 26, 1) 50%,
-        rgba(255, 154, 26, 1) 75%,
-        transparent 75%,
-        transparent
-    );
-    background-image:
-        -ms-linear-gradient(
-        -45deg,
-        rgba(255, 154, 26, 1) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(255, 154, 26, 1) 50%,
-        rgba(255, 154, 26, 1) 75%,
-        transparent 75%,
-        transparent
-    );
-    background-image:
-        linear-gradient(
-        -45deg,
-        rgba(255, 154, 26, 1) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(255, 154, 26, 1) 50%,
-        rgba(255, 154, 26, 1) 75%,
-        transparent 75%,
-        transparent
-    );
-    -webkit-background-size:50px 50px;
-    -moz-background-size:50px 50px;
-    -ms-background-size:50px 50px;
-    background-size:50px 50px;
-    -webkit-animation:move 2s linear infinite;
-    -moz-animation:move 2s linear infinite;
-    -ms-animation:move 2s linear infinite;
-    animation:move 2s linear infinite;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    border-radius:20px;
-    overflow: hidden;
-    -webkit-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
-    -moz-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
-    -ms-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
-    box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
-
-}*/
-
-/*
-Animate the stripes
-*/	
-/*@-webkit-keyframes move{
-  0% {
-  	background-position: 0 0;
-  }
-  100% {
-  	background-position: 50px 50px;
-  }
-}	
-@-moz-keyframes move{
-  0% {
-  	background-position: 0 0;
-  }
-  100% {
-  	background-position: 50px 50px;
-  }
-}	
-@-ms-keyframes move{
-  0% {
-  	background-position: 0 0;
-  }
-  100% {
-  	background-position: 50px 50px;
-  }
-}	
-@keyframes move{
-  0% {
-  	background-position: 0 0;
-  }
-  100% {
-  	background-position: 50px 50px;
-  }
-}	*/
-/* ===== END Progress Bar Striped Animated ===== */
-
-
-
 
 /************End Structure**************/
 
@@ -500,21 +303,9 @@ Animate the stripes
         }
 
         .wufoo button#previousPageButton {
-            margin-top: 30px;
+            color: #000;
+            text-transform: lowercase;
         }
-
-        .wufoo input#nextPageButton,
-        .wufoo input#saveForm {
-            margin-top: 0;
-        }
-
-        .wufoo button#previousPageButton {
-            width: 20%;
-        }
-        .wufoo input#nextPageButton,
-        .wufoo input#saveForm {
-            width: 60%;
-        } 
 
         .chkboxButtons label {
             width: 140px;
