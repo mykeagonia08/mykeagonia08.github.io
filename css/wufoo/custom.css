@@ -360,7 +360,7 @@ input.btTxt {
             color: #000;
         }
 
-        .chkboxButtons label {
+        .wufoo .chkboxButtons label {
             width: 140px;
         }
 
@@ -392,8 +392,8 @@ input.btTxt {
             width: 52%;
         }
 
-        .radioButton span:nth-child(2) label.choice,
-        .radioButton span:nth-child(3) label.choice {
+        .wufoo .radioButton span:nth-child(2) label.choice,
+        .wufoo .radioButton span:nth-child(3) label.choice {
             width: 120px;
         }
 
