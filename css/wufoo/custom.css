@@ -282,6 +282,10 @@ input.btTxt {
 
     }
 
+    @media only screen and (min-width : 384px) {
+
+    }
+
     @media only screen and (min-width : 414px) {
 
         .wufoo li span input[type="tel"] {
@@ -302,7 +306,32 @@ input.btTxt {
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
 
+        .chkboxButtons label,
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 180px;
+        }
+
     }
+
+    @media only screen and (min-width : 568px) {
+        
+        .chkboxButtons label,
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 265;
+        }
+
+    }
+
+    @media only screen and (min-width : 600px) {
+
+    }
+
+    @media only screen and (min-width : 667px) {
+
+    }
+
 
     /* Default Desktop Baseline */
     @media only screen and (min-width : 714px) {
