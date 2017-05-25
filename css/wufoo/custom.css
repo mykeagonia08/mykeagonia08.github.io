@@ -208,7 +208,7 @@ input.btTxt {
     color: #fff;
     display: inline-block;
     padding: 16px 20px;
-    font: normal 700 29px/1 "Open Sans", sans-serif;
+    font: normal 700 22px/1 "Open Sans", sans-serif;
     text-align: center;
     text-shadow: none;
 
@@ -262,6 +262,7 @@ input.btTxt {
         .chkboxButtons label {
             width: 140px;
         }
+
     }
 
     @media only screen and (min-width : 375px) {
