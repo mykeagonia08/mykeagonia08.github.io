@@ -316,25 +316,18 @@ input.btTxt {
 
     @media only screen and (min-width : 568px) {
 
-        .chkboxButtons label,
+        .chkboxButtons label {
+            width: 240px;
+        }
+        
         .wufoo .radioButton span:nth-child(2) label.choice, 
         .wufoo .radioButton span:nth-child(3) label.choice {
-            width: 265px;
+            width: 240px;
         }
 
     }
 
     @media only screen and (min-width : 600px) {
-
-    }
-
-    @media only screen and (min-width : 667px) {
-
-    }
-
-
-    /* Default Desktop Baseline */
-    @media only screen and (min-width : 714px) {
 
         .noI .rightLabel .buttons,
         .rightLabel .buttons,
@@ -401,6 +394,17 @@ input.btTxt {
         .wufoo input#nextPageButton {
             font: normal 700 29px/1 "Open Sans", sans-serif;
         }
+
+
+    }
+
+    @media only screen and (min-width : 667px) {
+
+    }
+
+
+    /* Default Desktop Baseline */
+    @media only screen and (min-width : 714px) {
 
     }
 
