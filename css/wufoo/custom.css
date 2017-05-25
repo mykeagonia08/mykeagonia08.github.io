@@ -305,11 +305,6 @@ input.btTxt {
     /* Default Desktop Baseline */
     @media only screen and (min-width : 714px) {
 
-        .wufoo .radioButton span:nth-child(2) label.choice, 
-        .wufoo .radioButton span:nth-child(3) label.choice {
-            width: 100px;
-        }
-
         .noI .rightLabel .buttons,
         .rightLabel .buttons,
         .noI .leftLabel .buttons,
@@ -376,66 +371,6 @@ input.btTxt {
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
 
-        .noI .rightLabel .buttons,
-        .rightLabel .buttons,
-        .noI .leftLabel .buttons,
-        .leftLabel .buttons {
-            padding-left: 10%;
-        }
-
-        .wufoo input.text {
-            width: 305px;
-        }
-
-        .wufoo .formMsg > label.desc {
-            width: 100%;
-            margin: 0;
-        }
-
-        .wufoo .radioButton span:nth-child(2) label.choice {
-            margin-left: 10px;
-        }
-
-        .wufoo button#previousPageButton {
-            color: #000;
-        }
-
-        .chkboxButtons label {
-            width: 140px;
-        }
-
-        .wufoo li span input[type="tel"] {
-            width: 88px;
-        }
-
-        .wufoo label.desc,
-        .wufoo legend.desc {
-            font-size: 100%;
-            font-weight: normal;
-            width: 25%;
-        }
-        
-        .leftLabel .buttons div,
-        .rightLabel .buttons div {
-            width: 100%;
-        }
-
-        .leftLabel .desc,
-        .rightLabel .desc {
-             float: left;
-            margin: 0 15px 0 0;
-            padding-left: 80px;
-            width: 32%;
-        }
-
-        .leftLabel li div, .rightLabel li div {
-            width: 52%;
-        }
-
-        .radioButton span:nth-child(2) label.choice,
-        .radioButton span:nth-child(3) label.choice {
-            width: 120px;
-        }
     }
 
     /* Medium Devices, Desktops */
