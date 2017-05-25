@@ -208,7 +208,7 @@ input.btTxt {
     color: #fff;
     display: inline-block;
     padding: 16px 20px;
-    font: normal 700 29px/1 "Open Sans", sans-serif;
+    font: normal 700 22px/1 "Open Sans", sans-serif;
     text-align: center;
     text-shadow: none;
 
@@ -439,7 +439,7 @@ Animate the stripes
 
     /* Default Desktop Baseline */
     @media only screen and (min-width : 714px) {
-        
+
         .noI .rightLabel .buttons,
         .rightLabel .buttons,
         .noI .leftLabel .buttons,
@@ -499,6 +499,11 @@ Animate the stripes
         .radioButton span:nth-child(2) label.choice,
         .radioButton span:nth-child(3) label.choice {
             width: 120px;
+        }
+
+        .wufoo input#saveForm,
+        .wufoo input#nextPageButton {
+            font: normal 700 29px/1 "Open Sans", sans-serif;
         }
 
     }

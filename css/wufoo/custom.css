@@ -368,6 +368,11 @@ input.btTxt {
             width: 120px;
         }
 
+        .wufoo input#saveForm,
+        .wufoo input#nextPageButton {
+            font: normal 700 29px/1 "Open Sans", sans-serif;
+        }
+
     }
 
     /* Small Devices, Tablets */
