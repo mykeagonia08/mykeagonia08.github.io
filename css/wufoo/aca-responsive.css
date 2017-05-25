@@ -24,6 +24,10 @@ Orange: #ff9600
 
 
 /************Structure**************/
+.embed form,
+.embed body {
+    margin: 0 auto !important;
+}
 .wufoo {
     max-width: 480px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
