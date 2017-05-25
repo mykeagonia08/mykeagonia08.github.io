@@ -434,11 +434,27 @@ Animate the stripes
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
+        .chkboxButtons label,
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 180px;
+        }
+    }
+
+    @media only screen and (min-width : 568px) {
+
+        .chkboxButtons label {
+            width: 240px;
+        }
+        
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 240px;
+        }
 
     }
 
-    /* Default Desktop Baseline */
-    @media only screen and (min-width : 714px) {
+    @media only screen and (min-width : 600px) {
 
         .noI .rightLabel .buttons,
         .rightLabel .buttons,
@@ -464,7 +480,7 @@ Animate the stripes
             color: #000;
         }
 
-        .chkboxButtons label {
+        .wufoo .chkboxButtons label {
             width: 140px;
         }
 
@@ -496,8 +512,8 @@ Animate the stripes
             width: 52%;
         }
 
-        .radioButton span:nth-child(2) label.choice,
-        .radioButton span:nth-child(3) label.choice {
+        .wufoo .radioButton span:nth-child(2) label.choice,
+        .wufoo .radioButton span:nth-child(3) label.choice {
             width: 120px;
         }
 
@@ -505,6 +521,12 @@ Animate the stripes
         .wufoo input#nextPageButton {
             font: normal 700 29px/1 "Open Sans", sans-serif;
         }
+
+
+    }
+
+    /* Default Desktop Baseline */
+    @media only screen and (min-width : 714px) {
 
     }
 
