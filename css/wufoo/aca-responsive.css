@@ -398,6 +398,7 @@ Animate the stripes
             margin: -15 0 5px 10px;
         }
         .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 260px;
             margin-left: 10px;
         }
         .chkboxButtons label {
