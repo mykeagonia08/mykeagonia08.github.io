@@ -243,11 +243,21 @@ input.btTxt {
         .wufoo td.t #pagecircle3,
         .wufoo td.t #pagecircle2, 
         .wufoo td.t #pagecircle1 {
-            font-size: 100%;
+            font-size: 90%;
         }
 
+        li.twoColumns div span {
+            margin: 0;
+        }
         .chkboxButtons label {
-            width: 105px;
+            width: 95px;
+        }
+        .chkboxButtons label span.choice__text {
+            font-size: 16px;
+        }
+
+        .wufoo .radioButton span:nth-child(2) label.choice {
+            margin-left: 12px;
         }
 
         .wufoo .radioButton span:nth-child(2) label.choice, 
@@ -255,9 +265,17 @@ input.btTxt {
             width: 95px;
         }
 
-        .wufoo input#saveForm,
-        .wufoo input#nextPageButton {
-            font: normal 700 29px/1 "Open Sans", sans-serif;
+        .wufoo .Stp1Btn input#nextPageButton {
+            font: normal 700 18px/1 "Open Sans", sans-serif;
+        }
+        .wufoo .Stp2Btn input#nextPageButton {
+            font: normal 700 22px/1 "Open Sans", sans-serif;
+        }
+        .wufoo li span input[type="tel"] {
+            width:60px;
+        }
+        .wufoo input#saveForm {
+        font: normal 700 17px/1 "Open Sans", sans-serif;
         }
 
     }
@@ -266,7 +284,7 @@ input.btTxt {
 
         .wufoo td.t #pagecircle3, .wufoo td.t #pagecircle2, 
         .wufoo td.t #pagecircle1 {
-            font-size: 90%;
+            font-size: 100%;
         }
         li.twoColumns div span {
             margin: 0;
