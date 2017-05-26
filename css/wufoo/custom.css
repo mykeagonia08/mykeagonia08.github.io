@@ -238,6 +238,65 @@ input.btTxt {
 
 /************Mobile Queries**************/
 
+    @media only screen and (min-width : 280px) {
+
+        .wufoo td.t #pagecircle3,
+        .wufoo td.t #pagecircle2, 
+        .wufoo td.t #pagecircle1 {
+            font-size: 100%;
+        }
+
+        .chkboxButtons label {
+            width: 105px;
+        }
+
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 95px;
+        }
+
+        .wufoo input#saveForm,
+        .wufoo input#nextPageButton {
+            font: normal 700 29px/1 "Open Sans", sans-serif;
+        }
+
+    }
+
+    @media only screen and (min-width : 280px) {
+
+        .wufoo td.t #pagecircle3, .wufoo td.t #pagecircle2, 
+        .wufoo td.t #pagecircle1 {
+            font-size: 90%;
+        }
+        li.twoColumns div span {
+            margin: 0;
+        }
+        .chkboxButtons label {
+            width: 95px;
+        }
+        .chkboxButtons label span.choice__text {
+            font-size: 16px;
+        }
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 95px;
+        }
+        .wufoo .Stp1Btn input#nextPageButton {
+            font: normal 700 19px/1 "Open Sans", sans-serif;
+        }
+        .wufoo .Stp2Btn input#nextPageButton {
+            font: normal 700 23px/1 "Open Sans", sans-serif;
+        }
+        .wufoo li span input[type="tel"] {
+            width:60px;
+        }
+        .wufoo input#saveForm {
+        font: normal 700 18px/1 "Open Sans", sans-serif;
+        }
+
+    }
+
+
     /* Custom, iPhone Retina */ 
     /* min-width 320px will be the default css*/
     /*@media only screen and (min-width : 320px) {
