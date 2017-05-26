@@ -366,15 +366,11 @@ Animate the stripes
 /************Mobile Queries**************/
 
     @media only screen and (min-width : 245px) {
-        .wufoo {
-            border: 1px solid #93a8a9;
-        }
-        .wufoo .radioButton span:nth-child(2) label.choice {
-            margin-left: 0;
-        }
+        
         .wufoo .radioButton span:nth-child(2) label.choice, 
         .wufoo .radioButton span:nth-child(3) label.choice {
             width: 225px;
+            margin-left: 0;
         }
         li.twoColumns div span {
             margin: 0;
@@ -387,7 +383,11 @@ Animate the stripes
         }
 
         .wufoo textarea.textarea {
-        padding-left: 0;
+            padding-left: 0;
+        }
+
+        .wufoo li span input[type="tel"] {
+            width: 60px;
         }
 
     }
