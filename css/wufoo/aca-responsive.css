@@ -392,7 +392,7 @@ Animate the stripes
 
     }
 
-    @media only screen and (min-width : 320px) {
+    @media only screen and (min-width : 300px) {
         .wufoo .radioButton span:nth-child(2) label.choice{
             width: 260px;
             margin: -15 0 5px 10px;
