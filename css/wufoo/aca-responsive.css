@@ -114,7 +114,7 @@ Orange: #ff9600
    padding: 12px 0;
    border: 2px solid #64c832;
     background-color: white;
-    /*width: 260px;*/
+    width: 260px;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
@@ -395,7 +395,7 @@ Animate the stripes
     @media only screen and (min-width : 320px) {
         .wufoo .radioButton span:nth-child(2) label.choice{
             width: 260px;
-            margin: 0 0 5px 10px;
+            margin: -15 0 5px 10px;
         }
         .wufoo .radioButton span:nth-child(3) label.choice {
             margin-left: 10px;
