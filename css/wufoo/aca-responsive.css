@@ -365,6 +365,33 @@ Animate the stripes
 
 /************Mobile Queries**************/
 
+    @media only screen and (min-width : 245px) {
+        .wufoo {
+            border: 1px solid #93a8a9;
+        }
+        .wufoo .radioButton span:nth-child(2) label.choice {
+            margin-left: 0;
+        }
+        .wufoo .radioButton span:nth-child(2) label.choice, 
+        .wufoo .radioButton span:nth-child(3) label.choice {
+            width: 225px;
+        }
+        li.twoColumns div span {
+            margin: 0;
+        }
+        .chkboxButtons label {
+            width: 95px;
+        }
+        .chkboxButtons label span.choice__text {
+            font-size: 16px;
+        }
+
+        .wufoo textarea.textarea {
+        padding-left: 0;
+        }
+
+    }
+
     /* Custom, iPhone Retina */ 
     /* min-width 320px will be the default css*/
     /*@media only screen and (min-width : 320px) {
