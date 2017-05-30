@@ -259,6 +259,7 @@ Blue: #0D6796
 }
 
 .wufoo li.paging-context var {
+    padding-right: 5px;
     background-color:#63DD75;
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
