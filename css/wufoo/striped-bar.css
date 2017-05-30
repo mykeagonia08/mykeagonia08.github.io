@@ -233,6 +233,12 @@ input.btTxt {
 }
 
 /* ===== Progress Bar Striped Animated ===== */
+/*
+Green: rgb(60,213,83)
+Light Green: #63DD75
+Dirty White: #d3d3d3
+Blue: #0D6796
+*/
 
 .wufoo b,
 .wufoo em {
@@ -256,7 +262,7 @@ input.btTxt {
 }
 
 .wufoo li.paging-context var {
-    background-color:#d3d3d3;
+    background-color:#63DD75;
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
     -ms-border-radius:20px;
@@ -268,44 +274,44 @@ input.btTxt {
     background-image:
         -webkit-linear-gradient(
         -45deg,
-        rgba(255, 154, 26, 1) 25%,
+        rgba(60,213,83, 1) 25%,
         transparent 25%,
         transparent 50%,
-        rgba(255, 154, 26, 1) 50%,
-        rgba(255, 154, 26, 1) 75%,
+        rgba(60,213,83, 1) 50%,
+        rgba(60,213,83, 1) 75%,
         transparent 75%,
         transparent
     );
     background-image:
         -moz-linear-gradient(
         -45deg,
-        rgba(255, 154, 26, 1) 25%,
+        rgba(60,213,83, 1) 25%,
         transparent 25%,
         transparent 50%,
-        rgba(255, 154, 26, 1) 50%,
-        rgba(255, 154, 26, 1) 75%,
+        rgba(60,213,83, 1) 50%,
+        rgba(60,213,83, 1) 75%,
         transparent 75%,
         transparent
     );
     background-image:
         -ms-linear-gradient(
         -45deg,
-        rgba(255, 154, 26, 1) 25%,
+        rgba(60,213,83, 1) 25%,
         transparent 25%,
         transparent 50%,
-        rgba(255, 154, 26, 1) 50%,
-        rgba(255, 154, 26, 1) 75%,
+        rgba(60,213,83, 1) 50%,
+        rgba(60,213,83, 1) 75%,
         transparent 75%,
         transparent
     );
     background-image:
         linear-gradient(
         -45deg,
-        rgba(255, 154, 26, 1) 25%,
+        rgba(60,213,83, 1) 25%,
         transparent 25%,
         transparent 50%,
-        rgba(255, 154, 26, 1) 50%,
-        rgba(255, 154, 26, 1) 75%,
+        rgba(60,213,83, 1) 50%,
+        rgba(60,213,83, 1) 75%,
         transparent 75%,
         transparent
     );
