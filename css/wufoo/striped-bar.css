@@ -18,8 +18,9 @@
 }
 
 .wufoo b {
-  font-size: 125%;
-  font-weight: bold;
+    color: #fff;
+    font-size: 125%;
+    font-weight: bold;
 }
 
 .wufoo .info {
