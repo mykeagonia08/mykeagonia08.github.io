@@ -241,12 +241,8 @@ Dirty White: #d3d3d3
 Blue: #0D6796
 */
 
-.wufoo b,
-.wufoo em {
-    color: #0D6796;
-}
-
 .wufoo em{
+    color: #0D6796;
     font-weight: 900;
     font-size: 16px;
 }
