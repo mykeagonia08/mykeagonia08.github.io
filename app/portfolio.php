@@ -61,7 +61,7 @@
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="../app/portfolio.php">Portfolios</a>
+                        <a href="/portfolio">Portfolios</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
