@@ -66,8 +66,8 @@ $(function() {
         $(this).tab("show");
     });
 
-    $('#saveForm').submit(function() {
-        this.preventDefault();
+    $('#saveForm').submit(function(e) {
+        e.preventDefault();
         alert('test');
     });
 
