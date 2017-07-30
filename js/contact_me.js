@@ -66,11 +66,6 @@ $(function() {
         $(this).tab("show");
     });
 
-    $('#saveForm').submit(function(e) {
-        e.preventDefault();
-        alert('test');
-    });
-
 });
 
 // When clicking on Full hide fail/success boxes
