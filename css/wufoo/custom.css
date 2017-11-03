@@ -215,7 +215,7 @@ input.btTxt {
     -webkit-appearance: none;  /*To have same style in other browsers like Safari, Mozilla, Opera */
 }
 .wufoo input#saveForm {
-    width: 235px;
+    width: 250px;
     white-space: normal;
     background: #ff9600;
     background: -webkit-linear-gradient(#ff9600, #ff9600);
