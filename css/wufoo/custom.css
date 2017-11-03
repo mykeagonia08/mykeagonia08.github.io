@@ -198,7 +198,7 @@ input.btTxt {
 .leftLabel li div, .rightLabel li div {
   width: 100%;
 }
-.wufoo input#saveForm,
+
 .wufoo input#nextPageButton {
     white-space: normal;
     background: #ff9600;
@@ -208,6 +208,21 @@ input.btTxt {
     color: #fff;
     display: inline-block;
     padding: 16px 20px;
+    font: normal 700 22px/1 "Open Sans", sans-serif;
+    text-align: center;
+    text-shadow: none;
+
+    -webkit-appearance: none;  /*To have same style in other browsers like Safari, Mozilla, Opera */
+}
+.wufoo input#saveForm {
+    width: 235px;
+    white-space: normal;
+    background: #ff9600;
+    background: -webkit-linear-gradient(#ff9600, #ff9600);
+    background: linear-gradient(#ff9600, #ff9600);
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
     font: normal 700 22px/1 "Open Sans", sans-serif;
     text-align: center;
     text-shadow: none;
