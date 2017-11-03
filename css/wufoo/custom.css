@@ -215,7 +215,7 @@ input.btTxt {
     -webkit-appearance: none;  /*To have same style in other browsers like Safari, Mozilla, Opera */
 }
 .wufoo input#saveForm {
-    width: 250px;
+    width: 235px;
     white-space: normal;
     background: #ff9600;
     background: -webkit-linear-gradient(#ff9600, #ff9600);
@@ -290,7 +290,8 @@ input.btTxt {
             width:60px;
         }
         .wufoo input#saveForm {
-        font: normal 700 17px/1 "Open Sans", sans-serif;
+            font: normal 700 17px/1 "Open Sans", sans-serif;
+            width: 270px;
         }
 
     }
@@ -325,7 +326,7 @@ input.btTxt {
         }
         .wufoo input#saveForm {
             font: normal 700 18px/1 "Open Sans", sans-serif;
-            width: 270px;
+            width: 285px;
         }
 
     }
@@ -384,6 +385,10 @@ input.btTxt {
             width: 140px;
         }
 
+        .wufoo input#saveForm {
+            width: 310px;
+        }
+
     }
 
     @media only screen and (min-width : 375px) {
@@ -402,7 +407,7 @@ input.btTxt {
         }
 
         .wufoo input#saveForm {
-            width: 310px;
+            width: 360px;
         }
 
     }
@@ -427,7 +432,7 @@ input.btTxt {
         }
 
         .wufoo input#saveForm {
-            width: 345px;
+            width: 400px;
         }
 
     }
@@ -442,7 +447,7 @@ input.btTxt {
         }
 
         .wufoo input#saveForm {
-            width: 410px;
+            width: 465px;
         }
 
     }
@@ -459,7 +464,7 @@ input.btTxt {
         }
 
         .wufoo input#saveForm {
-            width: 490px;
+            width: 550px;
         }
 
     }
@@ -533,7 +538,7 @@ input.btTxt {
         }
 
         .wufoo input#saveForm {
-            width: 525px;
+            width: 500px;
         }
 
 
