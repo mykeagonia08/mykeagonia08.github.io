@@ -217,9 +217,9 @@ input.btTxt {
 .wufoo input#saveForm {
     width: 235px;
     white-space: normal;
-    background: #ff9600;
+    /*background: #ff9600;
     background: -webkit-linear-gradient(#ff9600, #ff9600);
-    background: linear-gradient(#ff9600, #ff9600);
+    background: linear-gradient(#ff9600, #ff9600);*/
     border-radius: 10px;
     color: #fff;
     display: inline-block;
@@ -291,7 +291,7 @@ input.btTxt {
         }
         .wufoo input#saveForm {
             font: normal 700 17px/1 "Open Sans", sans-serif;
-            width: 270px;
+            width: 235px;
         }
 
     }
@@ -326,7 +326,7 @@ input.btTxt {
         }
         .wufoo input#saveForm {
             font: normal 700 18px/1 "Open Sans", sans-serif;
-            width: 285px;
+            width: 275px;
         }
 
     }
@@ -386,7 +386,7 @@ input.btTxt {
         }
 
         .wufoo input#saveForm {
-            width: 310px;
+            width: 345px;
         }
 
     }
@@ -538,7 +538,7 @@ input.btTxt {
         }
 
         .wufoo input#saveForm {
-            width: 595px;
+            width: 530px;
         }
 
 
